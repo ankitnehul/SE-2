@@ -1,0 +1,35 @@
+.bg-light {
+  background-image: url("https://platonlife.com/wp-content/uploads/bank.jpg");
+  background-size: cover;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(0, 0, 0, 0.7);
+  color: black;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+.header {
+  font-weight: bold;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.input button {
+  width: 120px;
+  height: 40px;
+  font-weight: bold;
+  margin-top: 10px;
+  transform: translateY(200%);
+}
+
+.input span {
+  transform: translateY(300%);
+}
